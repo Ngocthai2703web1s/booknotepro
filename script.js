@@ -1,16 +1,16 @@
 const images = [
     {
-        src: "#",
+        src: "https://ebookvie.com/wp-content/uploads/2023/12/ebook-10-bi-quyet-thanh-cong-cua-cac-mc-dien-gia-full-prc-pdf-epub-azw3.jpg",
         name: "[2024] 10 Bí Quyết Thành Công Của Những Diễn Giả MC Tài Năng Nhất Thế Giới - Carmine Gallo",
         downloadLink: "https://tinyurl.com/4bnr2ekd"
     },
     {
-        src: "#",
+        src: "https://ebookvie.com/wp-content/uploads/2023/12/10-buoc-de-co-cuoc-song-tron-ven-dale-carnegie.jpg",
         name: "[2024] 10 Bước Để Có Cuộc Sống Trọn Vẹn - Dale Carnegie",
         downloadLink: "https://tinyurl.com/u5zurahn"
     },
     {
-        src: "#",
+        src: "https://ebookvie.com/wp-content/uploads/2023/12/ebook-10-cau-noi-van-nang-full-prc-pdf-epub-azw3.jpg",
         name: "[2024] 10 Câu Nói Vạn Năng – Rich DeVos",
         downloadLink: "https://tinyurl.com/48ym7cxv"
     }
