@@ -1,9 +1,19 @@
 // Dữ liệu mẫu cho các ảnh
 const images = [
     {
-        src: "Ảnh",
-        name: "[Year] Name",
-        downloadLink: "Link"
+        src: "#",
+        name: "[2024] 10 Bí Quyết Thành Công Của Những Diễn Giả MC Tài Năng Nhất Thế Giới - Carmine Gallo",
+        downloadLink: "/data/657941664.epub"
+    },
+	{
+        src: "#",
+        name: "[2024] 10 Bước Để Có Cuộc Sống Trọn Vẹn - Dale Carnegie",
+        downloadLink: "/data/938904112.epub"
+    },
+	{
+        src: "#",
+        name: "[2024] 10 Câu Nói Vạn Năng – Rich DeVos",
+        downloadLink: "/data/654618374.epub"
     }
 ];
 
