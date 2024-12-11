@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.search-container {
+    width: 100%;
+    max-width: 800px; /* Kích thước tối đa cho container chính */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Căn giữa nội dung bên trong container */
+}
+
+#search-input {
+    width: 100%;
+    max-width: 600px; /* Kích thước tối đa cho thanh tìm kiếm */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin: 0 auto; /* Căn giữa thanh tìm kiếm trong container */
+}
+
+#search-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+.list-container {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của màn hình */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Đảm bảo danh sách chiếm toàn bộ chiều rộng của container */
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 100%; /* Đặt độ rộng thẻ li thành 100% của container */
+    box-sizing: border-box; /* Bao gồm padding và border trong chiều rộng */
+}
+
+img {
+    width: 426px;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
