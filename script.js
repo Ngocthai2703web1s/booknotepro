@@ -2,12 +2,12 @@ const images = [
     {
         src: "#",
         name: "[2024] 10 Bí Quyết Thành Công Của Những Diễn Giả MC Tài Năng Nhất Thế Giới - Carmine Gallo",
-        downloadLink: "/data/657941664.epub"
+        downloadLink: "https://github.com/Ngocthai2703web1s/booknotepro/blob/main/data/654618374.epub"
     },
     {
         src: "#",
         name: "[2024] 10 Bước Để Có Cuộc Sống Trọn Vẹn - Dale Carnegie",
-        downloadLink: "/data/938904112.epub"
+        downloadLink: "https://github.com/Ngocthai2703web1s/booknotepro/blob/main/data/938904112.epub"
     },
     {
         src: "#",
